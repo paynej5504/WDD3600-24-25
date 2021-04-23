@@ -10,7 +10,7 @@ To download these files click on the green "Code" button and click "download ZIP
 ## To use once downloaded
 To use the files, open them in the text editor of your choice. Go to the "app.js" file in the back-end and enter your database connection string in the commented area. Next, open the terminal in your code editor. If there is no terminal in the text editor you are using, you can also use GitBash. If you use GitBash, you will need to open the main folder of the downloaded files. Before you can run the app you first need to install the node_modules for the front-end and back-end. You can do this by typeing ```npm install``` in either GitBash or your terminal. Finally, you can run the app by typing ```npm start``` in GitBash or in your terminal for the back-end and front-end. The React app will then open in the browser on localhost:3000. The back-end will open in localhost:8000.
 
-### Front-end directory
+### Front-end Structure
 ```
 public/
 ├─ favicon.ico
@@ -96,7 +96,7 @@ src/
 package.json
 README.md
 ```
-### Back-end directory
+### Back-end Structure
 ```
 controllers/
 ├─ auth.js
@@ -114,4 +114,24 @@ routes/
 app.js
 package.json
 README.md
+```
+### Database Structure
+```
+admin/
+local/
+├─ clustermanager
+├─ oplog.rs
+├─ replset.election
+├─ replset.initialSyncld
+├─ replset.minvalid
+├─ replset.oplogTruncateAfterPoint
+├─ startup_log
+messages/
+├─ posts
+├─ users
+shop/
+├─ orders
+├─ products
+├─ sessions
+├─ users
 ```
