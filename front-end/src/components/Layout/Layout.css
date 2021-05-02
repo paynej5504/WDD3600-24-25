@@ -1,0 +1,21 @@
+/*header styles*/
+.main-header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/*content styles*/
+.content {
+  margin-top: 3.5rem;
+  padding: 1rem;
+}
+
+/*content on mobile device styles*/
+@media (min-width: 768px) {
+  .content {
+    margin-top: 3.5rem;
+    padding: 1rem 2rem;
+  }
+}

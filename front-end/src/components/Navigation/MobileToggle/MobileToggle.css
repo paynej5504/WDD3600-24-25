@@ -1,0 +1,27 @@
+/*mobile nav togge styles*/
+.mobile-toggle {
+  background: transparent;
+  border: none;
+  display: flex;
+  width: 2.5rem;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 1rem;
+}
+
+/*toggle bar styles*/
+.mobile-toggle__bar {
+  width: 2.5rem;
+  height: 4px;
+  background: white;
+}
+
+/*on a mobile device*/
+@media (min-width: 768px) {
+    .mobile-toggle {
+        display: none;
+    }
+}

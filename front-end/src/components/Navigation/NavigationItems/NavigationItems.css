@@ -1,0 +1,48 @@
+/*nav item styles*/
+.navigation-item {
+  padding: 0 1.5rem;
+}
+
+/*nav item link styles*/
+.navigation-item a {
+  text-decoration: none;
+  color: white;
+}
+
+/*nav item mobile styles*/
+.navigation-item.mobile {
+  font-size: 1.75rem;
+  margin: 0.5rem 0;
+}
+
+/*nav item mobile link styles*/
+.navigation-item.mobile a {
+  color: #3b0062;
+}
+
+/*nav item hover and active styles*/
+.navigation-item a:hover,
+.navigation-item a:active,
+.navigation-item a.active {
+  color: #fab83f;
+}
+
+.navigation-item:last-of-type {
+  padding-right: 0;
+}
+
+/*nav item button styles*/
+.navigation-item button {
+  font: inherit;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+}
+
+/*nav item button hover and active styles*/
+.navigation-item button:hover,
+.navigation-item button:active {
+  color: #fab83f;
+}
